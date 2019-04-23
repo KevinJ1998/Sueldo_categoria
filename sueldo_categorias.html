@@ -7,8 +7,8 @@
     <script>
     let nombre,sueldo,categoria,hordia,hortotal=0,numdias=1,porce;    
     nombre=prompt("Ingrese el nombre del empleado: ");
-    sueldo=prompt("Ingrese el sueldo de "+nombre+" por hora: ");        
-    categoria=prompt("Ingrese la categoria del sueldo: ");
+    sueldo=parseFloat(prompt("Ingrese el sueldo de "+nombre+" por hora: "));        
+    categoria=parseInt(prompt("Ingrese la categoria del sueldo: "));
     switch (categoria) {
         case 1:
             porce=0.15;
